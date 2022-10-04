@@ -1,0 +1,112 @@
+/* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    color: black;
+    font-family: Roboto, sans-serif; 
+}
+
+/* 
+root -cechy, kolory
+* - wspolne ogolne cechy
+var - wpisane cechach (na gorze w root) - zmienia kolory we wszystkich miejscach na raz
+hoover
+position relative ojca - position absolute dziecka
+
+
+position relative u ojca z-index 100
+z index 1 u dziecka - wtedy widac ojca, dziecko nie zaslania
+
+
+
+overflow - czasami dziecko przykrywa ojca i nie widac, wtedy overflow hidden pomaga
+text transform - jak ukazuje sie tekst
+
+button
+cursor
+
+
+
+
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    color: black;
+    font-family: Roboto, sans-serif; 
+}
+.navbar {
+    display:flex;
+    justify-content: center;
+    font-size: 22px;
+}
+.brand-name {
+    margin-left: 25px;
+    font-weight: bold;
+}
+.brand-name a {
+    text-decoration: none;
+}
+.navbar-links ul {
+    display: flex;
+}
+.navbar-links li {
+    list-style-type: none;
+}
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 13px;
+}
+
+
+main {
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    height: max-content;
+    
+}
+.text-on-left {
+    margin-left: 25px;
+
+}
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+h2 {
+    font-size: 50px;
+}
+hr {
+    color:#664488; 
+    height: 5px; 
+    background-color: #664488; 
+    width: 30%; 
+    margin-top: 15px; 
+    margin-bottom: 15px;
+}
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #888888;
+}
+
+footer {
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: 5px;
+}
+footer p {
+    font-size: 12px;
+}
+
+*/
