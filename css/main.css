@@ -139,19 +139,22 @@ footer {
     height: 50px;
 }
 .socials {
-    opacity: 30%;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .socials > .link {
-    text-decoration: none;
     color: var(--gray);
-    margin-right: 10px;
+    margin-right: 15px;
+    opacity: 40%;
+
 }
 
 .socials > .link:hover {
-    color: var(--main-color);
-    font-size: 30px;
+    background-color: var(--main-color);
+    color: var(--white);
+    border-radius: 50%;
+    opacity: 100%;
+    
 }
 
 .copyright {
