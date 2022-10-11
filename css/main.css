@@ -80,7 +80,7 @@ footer.container {
     content: "";
     position: absolute;
     height: 5px; 
-    width: 30%;
+    width: 32%;
     background-color: var(--main-color);
     bottom: -5px;
  }
@@ -137,23 +137,23 @@ footer.container {
 
 footer {
     height: 50px;
+}
 .socials {
     opacity: 30%;
     font-size: 20px;
 }
+
 .socials > .link {
-    margin-right: 15px;
-    color: var(--white);
-    background-color: var(--gray);
-    height: 2em;
-    width: 2em;
     text-decoration: none;
+    color: var(--gray);
+    margin-right: 10px;
 }
 
 .socials > .link:hover {
     color: var(--main-color);
-    background-color: var(--white);
+    font-size: 30px;
 }
+
 .copyright {
     font-size: 12px;
 }
