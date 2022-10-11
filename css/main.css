@@ -23,14 +23,14 @@ body {
 
 footer.container {
     margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 /* HEADER */
 
-header {
-    background-color: rgb(221, 234, 162);
-}
 .logo {
     height: 30px;
     float: left;
@@ -90,7 +90,7 @@ header {
     width: 100%;
     margin-bottom: 50px;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .btn {
@@ -130,7 +130,6 @@ header {
 .right-column {
     width: 60%;
     float: right;
-    background-color: rgb(104, 233, 233);
     margin-right: -30px;
 }
 
@@ -138,22 +137,25 @@ header {
 
 footer {
     height: 50px;
-    background-color:rgb(237, 237, 186);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
 .socials {
     opacity: 30%;
+    font-size: 20px;
 }
 .socials > .link {
     margin-right: 15px;
+    color: var(--white);
+    background-color: var(--gray);
+    height: 2em;
+    width: 2em;
+    text-decoration: none;
 }
 
+.socials > .link:hover {
+    color: var(--main-color);
+    background-color: var(--white);
+}
 .copyright {
     font-size: 12px;
-
 }
 
 
