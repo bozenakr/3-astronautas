@@ -144,9 +144,9 @@ footer {
 
 .socials > .link {
     color: var(--gray);
-    margin-right: 15px;
     opacity: 40%;
-
+    padding: 10px;
+    text-decoration: none;
 }
 
 .socials > .link:hover {
@@ -154,7 +154,6 @@ footer {
     color: var(--white);
     border-radius: 50%;
     opacity: 100%;
-    
 }
 
 .copyright {
